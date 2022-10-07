@@ -1,0 +1,215 @@
+:root {
+  --padding-container: 80px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 242, 255);
+}
+
+a{
+  text-decoration: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number]{
+  outline: none;
+  padding: 10px;
+  display: block;
+  border-radius: 3px;
+  border: 1px solid rgb(52, 105, 252);
+  margin: 20px auto;
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+input[type="text"], input[type="password"], input[type="date"], input[type="email"], input[type="file"]{
+  outline: none;
+  padding: 10px;
+  display: block;
+  border-radius: 3px;
+  border: 1px solid rgb(52, 105, 252);
+  margin: 20px auto;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  color: #fff;
+  margin: 20px auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #00b8eb;
+}
+
+select {
+  outline: none;
+  padding: 10px;
+  display: block;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+}
+
+textarea {
+  outline: none;
+  padding: 10px;
+  display: block;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+  resize: none;
+}
+
+#chartdiv {
+  width: 100%;
+  max-height: 600px;
+  height: 100vh;
+}
+
+/* Card Items */
+
+.products__container {
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.product__card {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: rgba(224, 224, 224, 0.342);
+  box-shadow: 0 0 8px rgb(82, 81, 81);
+  justify-content: center;
+  align-items: center;
+}
+
+.product__img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture__product {
+  border-radius: 5px;
+  width: 120px;
+  height: 120px;
+  display: block;
+}
+
+.product__texts {
+  width: 50%;
+  word-wrap: break-word;
+}
+
+.text {
+  width: 90%;
+}
+
+.size__product {
+  font-size: larger;
+}
+
+.price__product {
+  font-size: medium;
+}
+
+.cloth__product {
+  font-size: small;
+}
+
+.description__product {
+  font-size: smaller;
+}
+
+/* Login Form */
+
+.form__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+}
+
+.form__login {
+  margin-top: 60px;
+  width: 30%;
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(27, 71, 194, 0.938);
+}
+
+.tittle__form {
+  font-size: xx-large;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: rgb(43, 101, 209);
+  border-bottom: 1px solid rgb(52, 105, 252);
+}
+
+.form-group {
+  width: 80%;
+}
+
+.input__form-login {
+  width: 80%;
+}
+
+.file__selector {
+  width: 100%;
+  padding: 10px;
+}
+
+.container__file-selector {
+  margin: 0;
+  padding: 0;
+}
+
+.input__submit-login {
+  width: 80%;
+  background: rgb(52, 105, 252);
+  margin-bottom: 20px;
+}
+
+/* Table section camibusos */
+
+.table__content{
+  margin-top: 20px;
+}
+
+.table {
+  text-align: center;
+}
+
+.icon__option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+}
